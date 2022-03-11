@@ -3,153 +3,71 @@
     font-family: sans-serif;
 }
 
-h2{
+h1{
+    text-align: center;
     background-color: red;
-    font-size: 30px;
-    font-weight: 600;
-    color: rgb(255, 238, 0);
-    letter-spacing: 5px;
-    margin: 5px 0;
+    color: aqua;
+}
+h2{
+    text-align: center;
+    background-color: red;
+    color: aqua;
+    padding: 0;
+    margin: 0;
 }
 
-
-#left{
-    height: 550px;
+#containerIn{
+    height: 400px;
     width: 40%;
-    padding: 40px;
+    margin-left: 150px;
+    padding: 5px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #000000;
+    border-color: #0714d4;
     float: left;
 }
 
-.name{
+#containerOut{
+    height: 400px;
+    width: 30%;
     padding: 5px;
-    letter-spacing: 2px;
-}
-.name input{
-    border-style: solid;
-    border-radius: 7px;
-    padding-left: 10px;
-    width: 400px;
-    margin-left: 22px;
-    margin-right: auto;
-}
-.name input:hover{
-    font-size: larger;
-    background-color: rgba(0, 225, 255, 0.555);
-}
-
-.email{
-    padding: 5px;
-    letter-spacing: 2px;
-}
-.email input{
-        border-style: solid;
-        border-radius: 7px;
-        padding-left: 10px;
-        width: 400px;
-        margin-left: 16px;
-        margin-right: auto;
-}
-.email input:hover{
-    font-size: larger;
-    background-color: rgba(0, 225, 255, 0.555);
-}
-
-.mobile{
-    padding: 5px;
-    letter-spacing: 2px;
-}
-.mobile input{
-    border-style: solid;
-    border-radius: 7px;
-    padding-left: 10px;
-    width: 400px;
-    margin-left: 15px;
-    margin-right: auto;
-}
-.mobile input:hover{
-    font-size: larger;
-    background-color: rgba(0, 225, 255, 0.555);
-}
-
-.adress{
-    padding: 5px;
-    letter-spacing: 2px;
-}
-.adress textarea{
-    border-style: solid;
-    border-radius: 15px;
-    padding-left: 10px;
-    padding-top: 10px;
-    height: 100px;
-    width: 400px;
-    margin-left: 15px;
-    margin-right: auto;
-}
-
-.dob{
-    padding: 5px;
-    letter-spacing: 2px;
-}
-
-.gender{
-    padding: 5px;
-    letter-spacing: 2px;
-}
-
-.techstack{
-    padding: 5px;
-    letter-spacing: 2px;
-}
-
-.branch{
-    padding: 5px;
-    letter-spacing: 2px;
-}
-.branch select{
-    border-radius: 5px;
-    width: 200px;
-    margin-left: 15px;
-    margin-right: auto;
-}
-
-.resume{
-    padding: 5px;
-    letter-spacing: 2px;
-}
-.resume input{
-    width: 400px;
-    margin-left: 22px;
-    margin-right: auto;
-}
-
-#right{
-    height: 550px;
-    width: 40%;
-    padding: 40px;
+    margin-right: 10%;
     border-style: solid;
     border-radius: 5px;
-    border-color: #000000;
+    border-color: #0715e0;
     float: right;
     overflow-y: scroll;
 }
 
-h3{
-    background-color: red;
-    font-size: 30px;
-    font-weight: 600;
-    color: rgb(255, 238, 0);
-    letter-spacing: 5px;
-    margin: 5px 0;
+.divIn{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.labels{
+    float: left;
+}
+
+.in{
+    margin-left: 20px;
+    width: 60%;
+}
+
+.inrad{
+    margin-left: 20px;
+}
+
+.inchk{
+    margin-left: 20px;
 }
 
 .btns{
     height: 30px;
     width: 80px;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin-top: 30px;
+    margin-left: 70px;
     background-color: #E5E5E5;
     border-radius: 5px;
     font-weight: 400;
@@ -158,9 +76,20 @@ h3{
 #btnSubmit:hover{
     color: #E5E5E5;
     background-color: green;
+    cursor: pointer;
 }
 
 #btnReset:hover{
     color: #E5E5E5;
     background-color: red;
+    cursor: pointer;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.others{
+    font-size: 20px;
 }
